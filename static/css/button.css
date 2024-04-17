@@ -2,13 +2,29 @@
 .button a:visited,
 .button a:hover,               
 .button a:active{
+    width: 308px;
+    height: 78px;
     display: block;
     font-family: "Merriweather", serif;
-    font-size:35px ;
+    font-size: 35px;
     font-weight: normal;
-     color: #fff;
+    color: #fff;
     text-decoration: none;
     background-color: black;
     line-height: 50px;
     padding: 14px 33px;
+    position: relative;
+}
+
+.button::after{
+    content: "";
+    display: block;
+    background-image: url("../image/arrow.svg");
+    width: 28px;
+    height: 34px; 
+    background-size: 28px 34px;
+    position: absolute;
+    right: 31px;
+    top: 50%;
+    transform: translateY(-50%);
 }
