@@ -16,7 +16,7 @@
     position: relative;
 }
 
-.button::after{
+.button a::after{
     content: "";
     display: block;
     background-image: url("../image/arrow.svg");

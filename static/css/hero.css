@@ -1,6 +1,10 @@
 .hero{
     background-color: #CEFBFF;
-    border: 1px solid #707070;
-    padding-top: 130px;
-    padding-bottom: 119px;
+    padding: 130px;
+    
+}
+
+.heropink{
+    background-color: #ECCEFF;
+    padding: 165px;
 }
